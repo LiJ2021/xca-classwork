@@ -1,0 +1,22 @@
+
+
+#sagan1Pic{
+    height: 200px;
+    float: left;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+#sagan2Pic{
+    height: 80px;
+    float: right;
+    border: 2px solid black;
+    padding: 3px;
+}
+
+#sagan3Pic{
+    height: 100px;
+    float:left;
+    border: 3px solid black;
+    padding: 5px;
+}

@@ -1,0 +1,11 @@
+.red{
+    color: red;
+    float: left;
+}
+/* floats are going to 'break' or override the rules of the boxes and rules that are normalized, so be mindful */
+.blue{
+    color: blue;
+}
+/* body {
+    border: 1px solid red;
+} */
