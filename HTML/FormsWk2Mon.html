@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- Forms usually involve dynamic interactive input - where someone is putting in information that is not the developer and it changes -->
+
+   
+    <!--Text Inputs  -->
+    <form onsubmit="OnSubmitOrderForm()">
+<label>Email</label>
+<input type="text" id="mailAddress">
+<!-- above text is the default, but its good to be specific -->
+
+<!-- radio buttons -->
+<div>
+
+<!-- 'checked' property makes whichever tag or item has this added, that would be the default -->
+<h2>Drink:</h2>
+<input type="radio" id="coffee" name="drink">
+<label for="coffee">Coffee</label>
+<br>
+<input type="radio" id="tea" name="drink" checked>
+<label for="Tea">Tea</label>
+</div>
+
+<!-- checkbox buttons -->
+<div style="color: blueviolet">
+    
+    <h2>Add-ons:</h2>
+    <input type="checkbox" id="milk" name="additives">
+    <label for="milk">Milk</label>
+    <br>
+    <input type="checkbox" id="sugar" name="additives">
+    <label for="sugar">Sugar</label>
+    
+    </div>
+    <!-- Text Areas -->
+    <br>
+    <div>
+    <label for="message">Special Notes:</label>
+    <br>
+    <textarea name="message" id="message" cols="30" rows="5"></textarea>
+</div>
+
+</form>
+<script>
+    function OnSubmitOrderForm()
+{
+    alert("oh hello")
+}</script>
+
+</body>
+
+</html>

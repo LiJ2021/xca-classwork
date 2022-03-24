@@ -1,0 +1,22 @@
+/* goal is not to use inline styles and create classes to do the same work in a streamlined easier way */
+body {
+    background-image: url(/HTML/Plant.jpg);
+}
+p {
+    color: bisque;
+}
+h1 {
+    background-color: blue;
+}
+/* classes are defined with a period before the name - used for multiple occurences on a webpage*/
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+/* the hashtag is used for id attributes in an html page, like weve used with <span> like for unique items on a webpage */
+#green{
+    color: green;
+}
