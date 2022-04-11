@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="coffeeShop.css">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <title>Drinks On Me ☕</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Locations</li>
+            <li><button>Order Now</button></li>
+        </ul>
+
+    </nav>
+
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1>Drinks On Me</h1>
+          <p>(but they're not free)</p>
+        </div>
+        
+      </div>
+      <div class="question">
+        <h2>How can we help quench your thirst today? </h2>
+      </div>
+
+    <form id="form" name="myForm" >
+        <!-- to include in form tag if we were sending this order to be fulfilled:
+             action="/action_page.php" method="post" autocomplete="on"-->
+        <h2>Place Order Below:</h2>
+
+        <div class="contactData">
+            <label> Full Name <span>(required)</span> <input id="fullName" type="text" name="name" required>
+                </label>
+                    <br>
+                    <br>
+            <label> Email <input id="eMail" type="email" name="email" placeholder="someone@email.com" >
+            </label>
+                    <br>
+                    <br>
+            <label>
+                Phone <input type="tel" name="phone" placeholder="502-555-1212"> <br>
+            </label> 
+        </div>
+
+    <div class="options">  
+
+        <div class="drink">
+        <h2>Drink:</h2>
+        <div>
+        <input type="radio" id="coffee" name="drink">
+        <label for="coffee">Coffee</label>
+        <br>
+        <input type="radio" id="htea" name="drink" checked>
+        <label for="tea">Herbal Tea</label>
+        <br>
+        <input type="radio" id="btea" name="drink" checked>
+        <label for="tea">Black Tea</label>
+        <br>
+        <input type="radio" id="kombucha" name="drink">
+        <label for="kombucha">Kombucha</label>
+        <br>
+        <input type="radio" id="water" name="drink">
+        <label for="water">Iceberg Water</label>
+        </div>
+        </div>
+
+        <div class="creamerOptions">
+        <h2>Creamers: </h2>
+        <input type="radio" id="milk" name="options">
+        <label for="milk">Milk</label>
+        <br>
+        <input type="radio" id="milk" name="options">
+        <label for="oatMilk">Oat Milk</label>
+        <br>
+        <input type="radio" id="milk" name="options">
+        <label for="almondMilk">Almond Milk</label>
+        <br>
+        <input type="radio" id="milk" name="options">
+        <label for="soyMilk">Soy Milk</label>
+        <br>
+        <input type="radio" id="milk" name="options">
+        <label for="halfnhalf">Half n Half</label>
+        <br>
+        <input type="radio" id="milk" name="options">
+        <label for="Cream">Cream</label>
+        </div>
+
+        <div class="sweetnerOptions">
+            <h2>Sweetners:</h2>
+        <input type="checkbox" id="sugar" name="sweetner">
+        <label for="sugar">Sugar</label>
+        <br>
+        <input type="checkbox" id="splenda" name="sweetner">
+        <label for="splenda">Splenda</label>
+        <br>
+        <input type="checkbox" id="stevia" name="sweetner">
+        <label for="stevia">Stevia</label>    
+        <br>
+        <input type="checkbox" id="honey" name="sweetner">
+        <label for="stevia">Honey</label>    
+        <br>
+        <input type="checkbox" id="monkfruit" name="sweetner">
+        <label for="stevia">Monkfruit</label>    
+        <br>
+        <br>
+        </div>
+    </div>
+    <div class="request">
+        <label>Special Requests? </label>
+        <br><textarea></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit Order">
+    </div>
+</form>
+
+<script>
+
+</script>
+</body>
+</html>
+
+<!-- Form when a button is in a form, it will clear everything out.  Where did everything go? we would usually include a post or get method. 
+
+Photo by <a href="https://unsplash.com/@pariwatt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">pariwat pannium</a> on <a href="https://unsplash.com/s/photos/coffee-beans?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/s/photos/coffee-beans?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+Photo by <a href="https://unsplash.com/@liz99?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">童 彤</a> on <a href="https://unsplash.com/s/photos/cofffee-tea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  -->
